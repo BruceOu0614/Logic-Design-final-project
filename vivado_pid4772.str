@@ -1,0 +1,1561 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 4772
+
+Current time: 	5/25/17 3:48:09 PM CST
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=PMingLiU,name=·s²Ó©úÅé,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/Desktop/Final_Project
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	113 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 378 MB
+
+*/
+
+// [GUI Memory]: 24 MB (+22669kb) [00:00:08]
+// [Engine Memory]: 235 MB (+94870kb) [00:00:08]
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\USER\Desktop\Final_Project\Final_Project.xpr. Version: Vivado v2016.2 
+// [GUI Memory]: 39 MB (+14841kb) [00:01:03]
+// [Engine Memory]: 378 MB (+138073kb) [00:01:03]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/USER/Desktop/Final_Project/Final_Project.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 378 MB. GUI used memory: 28 MB. Current time: 5/25/17 3:48:10 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 486 MB (+92845kb) [00:01:41]
+// [GUI Memory]: 45 MB (+3892kb) [00:01:42]
+// [GUI Memory]: 51 MB (+4351kb) [00:01:43]
+// [GUI Memory]: 59 MB (+5598kb) [00:01:44]
+// [Engine Memory]: 517 MB (+7587kb) [00:01:45]
+// [GUI Memory]: 63 MB (+1084kb) [00:01:46]
+// Tcl Message: open_project C:/Users/USER/Desktop/Final_Project/Final_Project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 523 MB. GUI used memory: 39 MB. Current time: 5/25/17 3:48:52 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Final_Project; location: C:/Users/USER/Desktop/Final_Project; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:45 . Memory (MB): peak = 723.879 ; gain = 128.332 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// 'K' command handler elapsed time: 8 seconds
+// [Engine Memory]: 567 MB (+24369kb) [00:02:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 567 MB. GUI used memory: 40 MB. Current time: 5/25/17 3:49:42 PM CST
+// Tcl Message: open_hw 
+// Elapsed time: 27 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: ERROR: [Labtoolstcl 44-469] There is no current hw_target. 
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+// Elapsed time: 16 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// [GUI Memory]: 68 MB (+1839kb) [00:03:18]
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: open_hw_target 
+// Tcl Message: ERROR: [Labtoolstcl 44-469] There is no current hw_target. 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A3880BA 
+// HMemoryUtils.trashcanNow. Engine heap size: 599 MB. GUI used memory: 41 MB. Current time: 5/25/17 3:50:30 PM CST
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 621 MB (+27007kb) [00:03:26]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// [GUI Memory]: 73 MB (+892kb) [00:04:38]
+// Elapsed time: 63 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// G:be (cv:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+dismissDialog("Confirm Close"); // G:be (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 76 MB (+133kb) [00:05:04]
+// Elapsed time: 45 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), mem_addr_gen_inst - mem_addr_gen (mem_addr_gen.v)]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), mem_addr_gen_inst - mem_addr_gen (mem_addr_gen.v)]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 80 MB (+32kb) [00:05:37]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_addr_gen.v", 28, 95); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 354, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("mem_addr_gen.v", 59, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 864, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 107, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 306, 487); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 842, 140); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 98, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 343, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("mem_addr_gen.v", 63, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 86 MB (+2053kb) [00:08:50]
+// [Engine Memory]: 652 MB (+405kb) [00:10:48]
+// HMemoryUtils.trashcanNow. Engine heap size: 652 MB. GUI used memory: 42 MB. Current time: 5/25/17 3:57:55 PM CST
+// Elapsed time: 332 seconds
+selectCodeEditor("mem_addr_gen.v", 74, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_addr_gen.v", 343, 395); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 63, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 67, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 67, 389, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 83, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// [GUI Memory]: 91 MB (+370kb) [00:13:46]
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// [GUI Memory]: 98 MB (+2631kb) [00:13:49]
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 34, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 226 seconds
+selectCodeEditor("mem_addr_gen.v", 90, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 102, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 397, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("mem_addr_gen.v", 822, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 113, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("mem_addr_gen.v", 229, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 251, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("mem_addr_gen.v", 352, 268); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 100 seconds
+selectCodeEditor("mem_addr_gen.v", 934, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu May 25 16:08:24 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 16:08:24 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// [GUI Memory]: 104 MB (+909kb) [00:23:34]
+// [GUI Memory]: 110 MB (+1078kb) [00:23:49]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 119 MB (+3853kb) [00:24:21]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+// Elapsed time: 312 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 855.980 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A3880BA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit"); // aq:ao (ap:JPanel, aW:ak)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("mem_addr_gen.v", 365, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 415, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 407, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 448, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin U2:sign to constant 0 [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/top.v:51]. ]", 10); // al:k (JViewport:JComponent, cv:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin U2:sign to constant 0 [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/top.v:51]. ]", 10); // al:k (JViewport:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 16:15:32 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 16:15:32 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 168, 154); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+minimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 103, 64); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("mem_addr_gen.v", 418, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 450, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 31, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 71 seconds
+selectCodeEditor("mem_addr_gen.v", 129, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 131 seconds
+selectCodeEditor("mem_addr_gen.v", 598, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit"); // aq:ao (ap:JPanel, aW:ak)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 12 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ao:DockableFrame
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net trig_for in module/entity mem_addr_gen does not have driver. [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/mem_addr_gen.v:24]. ]", 8); // al:k (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net trig_for in module/entity mem_addr_gen does not have driver. [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/mem_addr_gen.v:24]. , [Synth 8-3848] Net sign in module/entity top does not have driver. [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/top.v:38]. ]", 12, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Final_Project\Final_Project.srcs\sources_1\new\top.v;-;;-;16;-;line;-;38;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net trig_for in module/entity mem_addr_gen does not have driver. [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/mem_addr_gen.v:24]. , [Synth 8-3848] Net outf in module/entity top does not have driver. [C:/Users/USER/Desktop/Final_Project/Final_Project.srcs/sources_1/new/top.v:72]. ]", 13, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\USER\Desktop\Final_Project\Final_Project.srcs\sources_1\new\top.v;-;;-;16;-;line;-;72;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("top.v", 97, 254); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("mem_addr_gen.v", 124, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 16:21:20 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 16:21:20 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("top.v", 76, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// Elapsed time: 16 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U0 - keyboard_ctl (keyboard_ctl.v)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), U0 - keyboard_ctl (keyboard_ctl.v)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("keyboard_ctl.v", 133, 465); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keyboard_ctl.v", 177, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keyboard_ctl.v", 207, 459); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 76 seconds
+selectCodeEditor("keyboard_ctl.v", 282, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keyboard_ctl.v", 279, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keyboard_ctl.v", 278, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keyboard_ctl.v", 276, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cv:JFrame)
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cv:JFrame)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu May 25 16:24:02 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_COMPILATION, "Log"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("mem_addr_gen.v", 445, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 123, 304); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 227, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mem_addr_gen.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("mem_addr_gen.v", 255, 86); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 126 MB (+806kb) [00:38:11]
+selectCodeEditor("mem_addr_gen.v", 445, 90); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 449, 87); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 251, 87); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("mem_addr_gen.v", 361, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 437, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 523, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 593, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 658, 218); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 703, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 643, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 513, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Synthesis Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit' does<br>not exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aW:ak)
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit' does<br>not exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aW:ak)
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // G:be (cv:JFrame)
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 16:27:25 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 653 MB. GUI used memory: 49 MB. Current time: 5/25/17 4:27:55 PM CST
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 96 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit"); // aq:ao (ap:JPanel, aW:ak)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 84 seconds
+selectCodeEditor("mem_addr_gen.v", 259, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("mem_addr_gen.v", 38, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 39, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 34, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 16:30:52 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 16:30:52 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// Elapsed time: 33 seconds
+selectCodeEditor("mem_addr_gen.v", 33, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 782, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 32, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 16, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 35, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 41, 357); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 41, 357, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 41, 357); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 175, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("mem_addr_gen.v", 431, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("mem_addr_gen.v", 426, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 431, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 435, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 97, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 175, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 317, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 469, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 128 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit"); // aq:ao (ap:JPanel, aW:ak)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 112 seconds
+selectCodeEditor("mem_addr_gen.v", 91, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 93, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 111 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 174, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("mem_addr_gen.v", 167, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 159, 268); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 267 seconds
+selectCodeEditor("mem_addr_gen.v", 378, 343); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 371, 342); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 388, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 289, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("mem_addr_gen.v", 170, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("mem_addr_gen.v", 393, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 467, 372); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 537, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 303, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 193, 394); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 652, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 121, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 200, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 193, 428); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 156, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 16:45:53 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 47 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 16:46:56 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 16:46:56 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 245 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// [GUI Memory]: 133 MB (+254kb) [01:04:28]
+// Elapsed time: 368 seconds
+selectCodeEditor("mem_addr_gen.v", 96, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("mem_addr_gen.v", 657, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 25, 410); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 3, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 128, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 235, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 290, 253); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 653 MB. GUI used memory: 51 MB. Current time: 5/25/17 4:57:56 PM CST
+// Elapsed time: 33 seconds
+selectCodeEditor("mem_addr_gen.v", 651, 368); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("mem_addr_gen.v", 657, 373); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 637, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 650, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 302, 393); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 279, 390); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 130, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 295, 421); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 171, 411); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 288, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 231, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 335, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 655, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 642, 292); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 653, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 648, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_addr_gen.v", 317, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 274, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 123, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 129, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 290, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 224, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 289, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 647, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 77 seconds
+selectCodeEditor("mem_addr_gen.v", 562, 465); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 435, 539); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("mem_addr_gen.v", 555, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("mem_addr_gen.v", 389, 80); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 213, 410); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 179, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 205, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 201, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 615, 424); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 591, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 646, 478); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 99, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("mem_addr_gen.v", 91, 34); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 127, 460); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 209, 457); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 354, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 421, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 153, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 11, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 163, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 132, 183); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 103, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 977, 510); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 336, 555); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 199, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 231, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 236, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 241, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 232, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 235, 485); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("mem_addr_gen.v", 1055, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 83, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_COPY, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 405, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_addr_gen.v", 104, 141); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 94, 137); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 97, 359); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 94, 60); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 89, 55); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 90, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): TRUE
+selectCodeEditor("mem_addr_gen.v", 94, 62); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 386, 498); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 37, 481); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 31, 484); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): FALSE
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): TRUE
+selectCodeEditor("mem_addr_gen.v", 129, 461); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 309, 565); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 92, 491); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): FALSE
+selectCodeEditor("mem_addr_gen.v", 911, 490); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 90, 484); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 91, 495); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 2, 439); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 206, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 351, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 159, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 202, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 202, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 206, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 201, 390); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 202, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 207, 388); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 351, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 163, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 204, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 207, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 202, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 201, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 437); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 206, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 351, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 168, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 159, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 205, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1, 294, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 1, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 3, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 206, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 352, 166); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 165, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 159, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 200, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 199, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 199, 514); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 0, 416, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 2, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 0, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 6, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 7, 414, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 7, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 7, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("mem_addr_gen.v", 33, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 209, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 354, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 155, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 159, 211, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 163, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 201, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 357); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 514); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 2, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 7, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 208, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 350, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 162, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 200, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 202, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 204, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 201, 442); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 201, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 5, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 212, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 355, 166); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 161, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 204, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 203, 442); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 195, 504); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 206, 506); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 199, 509); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 40 seconds
+selectCodeEditor("mem_addr_gen.v", 59, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("mem_addr_gen.v", 67, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("mem_addr_gen.v", 31, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("mem_addr_gen.v", 95, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("mem_addr_gen.v", 560, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1018, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 144, 329); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 17:10:21 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 17:10:21 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 31, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 190 seconds
+selectCodeEditor("mem_addr_gen.v", 63, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 30 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 88 seconds
+selectCodeEditor("mem_addr_gen.v", 363, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 288 seconds
+selectCodeEditor("mem_addr_gen.v", 131, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("mem_addr_gen.v", 49, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("mem_addr_gen.v", 331, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 144, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 67, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 99, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 129, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 98, 134, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("mem_addr_gen.v", 65, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 89, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 612, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 36, 285, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("mem_addr_gen.v", 110, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 111, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 161, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 163, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 163, 312, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 103, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 148 MB (+9468kb) [01:35:18]
+selectCodeEditor("mem_addr_gen.v", 100, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("mem_addr_gen.v", 192, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 159, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("mem_addr_gen.v", 660, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 111, 309, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("mem_addr_gen.v", 101, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 69, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 127, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 171, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 227, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("mem_addr_gen.v", 167, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 101 seconds
+selectCodeEditor("mem_addr_gen.v", 106, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 104, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 182, 342); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 97, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 94, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 529, 391); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 167, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 97 seconds
+selectCodeEditor("mem_addr_gen.v", 360, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 461, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 360, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 171, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 254, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 363, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 619, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 359, 342); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 815, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 653 MB. GUI used memory: 53 MB. Current time: 5/25/17 5:27:56 PM CST
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 620, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 359, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 562, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1010, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1008, 309, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 651, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 657, 324); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("mem_addr_gen.v", 363, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 343, 116); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 274, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 271, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 275, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 275, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 172, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 270, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 259, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 362, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 616, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 363, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 271, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 361, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 623, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 256, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 363, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 615, 388); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 566, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1009, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 648, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 129, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 812, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 626, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 252, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 267, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 62 seconds
+selectCodeEditor("mem_addr_gen.v", 359, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 173, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 611, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("mem_addr_gen.v", 504, 256); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("mem_addr_gen.v", 362, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 812, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 174, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 169, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 358, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 167, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 254, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 560, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 363, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 170, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 362, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 441, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 447, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 175, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 639, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 361, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 447, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 622, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 359, 321); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 615, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 345); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 561, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 816, 292); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 617, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 363, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 448, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 629, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 250, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 252, 391); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 390, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("mem_addr_gen.v", 360, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 617, 388); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("mem_addr_gen.v", 362, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 620, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 264, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 252, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 560, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 650, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("mem_addr_gen.v", 163, 183); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 361, 183); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 169, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 457, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 364, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 627, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 259, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 363, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 613, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("mem_addr_gen.v", 362, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 621, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 254, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("mem_addr_gen.v", 560, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 360, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 616, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 257, 268); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 361, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 616, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 174, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 253, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 364, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 616, 342); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 254, 345); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 128, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 819, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 364, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 614, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 254, 343); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("mem_addr_gen.v", 563, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 651, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("mem_addr_gen.v", 358, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 272, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 272, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 255, 308); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 360, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 172, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 258, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 359, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 615, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 259, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 359, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 618, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 259, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 564, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 647, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 366, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 621, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 361, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 617, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 259, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 806, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 620, 441); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 259, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 810, 339); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 622, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 256, 371); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1009, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 837, 419); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 1030, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 647, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 17:38:52 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 17:38:52 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 247 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 17:43:00 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// HOptionPane Error: "The file 'C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit' does<br>not exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 33 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 111 seconds
+selectCodeEditor("mem_addr_gen.v", 106, 394); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "mem_addr_gen.v", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("mem_addr_gen.v", 650, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 56 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 17:47:09 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 45 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 178 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu May 25 17:50:58 2017] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/synth_1/runme.log [Thu May 25 17:50:58 2017] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 245 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/USER/Desktop/Final_Project/Final_Project.runs/impl_1/top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 89 seconds
+selectCodeEditor("mem_addr_gen.v", 665, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 567, 390); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("mem_addr_gen.v", 658, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 653 MB. GUI used memory: 47 MB. Current time: 5/25/17 5:57:56 PM CST
+// Elapsed time: 109 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// G:be (cv:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+dismissDialog("Confirm Close"); // G:be (cv:JFrame)
+closeMainWindow("Final_Project - [C:/Users/USER/Desktop/Final_Project/Final_Project.xpr] - Vivado 2016.2"); // cv:JFrame
+// aV:y (cv:JFrame): Save Project: addNotify
